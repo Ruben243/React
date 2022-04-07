@@ -1,0 +1,20 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer components {
+  .input-form {
+    @apply border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md;
+  }
+  .label-form {
+    @apply block text-gray-700 uppercase font-bold;
+  }
+
+  .btn-submit {
+    @apply bg-indigo-600 text-white uppercase font-bold w-full p-3
+         hover:bg-indigo-700 cursor-pointer transition-all;
+  }
+  .btn-eliminarDelete{
+    @apply py-2 px-10  text-white font-bold uppercase rounded-lg; 
+  }
+}
