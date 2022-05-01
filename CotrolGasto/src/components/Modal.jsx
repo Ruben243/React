@@ -73,8 +73,9 @@ const Modal = ({
           <input
             type="number"
             id="Cantidad"
-            placeholder="Añade la cantidad ej:300"
-            value={cantidad}
+            min={1}
+            placeholder={"Añade un Gasto ej:300"}
+            value={cantidad >0 ? cantidad:''}
             onChange={(e) => setCantidad(e.target.value)}
           />
         </div>

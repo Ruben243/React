@@ -148,8 +148,6 @@ header h1 {
   border-left: 5px solid #b91c1c;
   color: #b91c1c;
 }
-.alerta.success {
-}
 
 .contenedor {
   width: 90%;
@@ -414,3 +412,22 @@ body .modal {
     width: 260px;
   }
 }
+@media (min-width:600px) {
+  .campo > input {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .campo > input {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .campo {
+    justify-content: center;
+  }
+}
+
+
